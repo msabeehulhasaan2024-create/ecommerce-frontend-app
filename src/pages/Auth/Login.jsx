@@ -42,10 +42,8 @@ const Login = () => {
       .catch((error) => {
         console.error(error)
         if (error.response) {
-          const { status, data } = error.response
-          if (status === 401) {
-            message.error(data.message)
-          }
+          const { data } = error.response
+          message.error(data?.message || "Failed to login")
         } else {
           message.error("Something went wrong while login")
         }
