@@ -76,7 +76,7 @@ const Login = () => {
               <FaBagShopping />
             </div>
             <span style={{ fontFamily: "Outfit, sans-serif", fontWeight: 800, fontSize: "1.6rem", color: "#0f172a", letterSpacing: "-0.5px" }}>
-              Shop<span style={{ color: "#4f46e5" }}>Nest</span>
+              Apex<span style={{ color: "#4f46e5" }}>Store</span>
             </span>
           </Link>
           <Title level={2} className="mb-1" style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700 }}>
